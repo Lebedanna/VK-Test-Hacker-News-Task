@@ -2,7 +2,6 @@ import { render, fireEvent, waitFor } from '@testing-library/react';
 import { Comment } from '../components/Comment';
 import { getComments as mockGetComments } from '../api/api';
 
-// Mock the API function getComments
 jest.mock('../api/api');
 
 const getComments = mockGetComments as jest.MockedFunction<typeof mockGetComments>;
@@ -39,7 +38,6 @@ describe('Comment component', () => {
 
         fireEvent.click(showRepliesButton);
 
-        // Wait for the child comments to be rendered
         await waitFor(() => {
             expect(queryByText('Reply 1')).not.toBeNull();
             expect(queryByText('Reply 2')).not.toBeNull();
