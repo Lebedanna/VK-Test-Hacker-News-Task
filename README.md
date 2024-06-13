@@ -9,7 +9,10 @@ A React application developed in TypeScript using the
 ## APP ID - 51915111
 ## [Direct link](https://vk.com/app51915111)
 
-## 🚀 Launching the app
+## Demonstration of work
+![Gif](vk_app.gif)
+
+## Launching the app
 
 ```sh
 yarn start
