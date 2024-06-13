@@ -10,7 +10,7 @@ A React application developed in TypeScript using the
 ## [Direct link](https://vk.com/app51915111)
 
 ## Demonstration of work
-![Gif](vk_app.gif)
+![Gif](vk_test.gif)
 
 ## Launching the app
 
